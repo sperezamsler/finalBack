@@ -22,4 +22,4 @@ spring:
       server:
         git:
           searchPaths: config
-          uri: https://github.com/dionseid/movies-and-series-catalog-msa
+          uri: https://github.com/sperezamsler/finalBack/tree/main/config
