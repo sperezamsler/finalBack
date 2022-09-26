@@ -1,0 +1,16 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-service:8761/eureka
+
+spring:
+  application:
+    name: movie-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-service
+      fail-fast: true
+  profiles:
+    active: dev

@@ -1,0 +1,18 @@
+global-message: Config up.
+
+management:
+  endpoint:
+    info:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  info:
+    env:
+      enabled: true
+
+spring:
+  zipkin:
+    baseUrl: http://zipkin:9411
+    enabled: true
